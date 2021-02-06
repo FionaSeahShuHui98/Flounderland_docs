@@ -6,13 +6,15 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
       <!------------------------------------- Imporing of CSS Files ------------------------------->
       <link rel="stylesheet" href="CSS File/navbar.css">
       <link rel="stylesheet" href="CSS File/footer.css">
-      <link rel="stylesheet" href="CSS File/contactme.css">
+      <link rel="stylesheet" href="CSS File/hanoi.css">
     </head>
     <body>
       <!------------------------------------------ Navigation Bar ------------------------------------>
@@ -48,60 +50,16 @@
           </ul>
         </div>  
       </nav>
-      <!------------------------------------- Main Content starts here --------------------------------->
-      <div class="main">
-        <div class="row ml-2 mt-2 mb-2">
-          <!---------------------------------------------- Header -------------------------------------->
-          <div class="header">
-            <h3>Contact Me</h3>
-          </div>
-        </div>
-        <div class="row mt-2 ml-2 mr-2 mb-2">
-          <div class="col-6">
-            <!-------------------------------------------- Information --------------------------------->
-            <div class="Information">
-              <div class="row">
-                <div class="col-12">
-                  <img src="Images/ContactMe/Profile.jpg" width="200" height="350">
-                </div>
-              </div>
-              <div class="row">
-                <h5><i class="fa fa-envelope"></i>fionaseah98@gmail.com</h5>
-              </div>
-              <div class="row">
-                <h5><i class="fa fa-phone"></i>9132 0514</h5>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 mb-2">
-            <!-------------------------------------------- Form ----------------------------------------->
-            <div class="Form">
-              <form action="action_page.php" name="myForm" onsubmit="return validateForm()" method="post">
-                <div class="row">
-                  <div class="col-6">
-                    <!------------------------------------- First Name ---------------------------------->
-                    <label for="fname">First Name:</label>
-                    <input type="text" id="first_name" name="first_name" placeholder="Peter"> 
-                  </div>
-                  <div class="col-6">
-                    <!------------------------------------- Last Name ------------------------------------>
-                    <label for="lname">Last Name:</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Pan">
-                  </div>
-                </div>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder="peterpan@gmail.com">
-                <label for="title">Subject Title:</label>
-                <input type="text" id="title" name="title" placeholder="Subject Title">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" placeholder="Message..." style="height:200px"></textarea>
-                <input type="submit" value="Submit">
-              </form>
-            </div>
-          </div>
-        </div>
+      <!------------------------------------- Main Content starts here -------------------------------->
+      <div class="bg"></div>
+      <div class="content">
+        <h2>Hanoi, Vietnam</h2>
+        <p>Hanoi, the capital of Vietnam, is known for its centuries-old architecture and a rich culture with Southeast Asian, Chinese and French influences. At its heart is the chaotic Old Quarter, where the narrow streets are roughly arranged by trade. There are many little temples, including Bach Ma, honoring a legendary horse, plus Đồng Xuân Market, selling household goods and street food</p>
+        <a href="https://drive.google.com/drive/folders/1yi8GitAbT3H9VJYC0yavUOFpJ0g7hLIW?usp=sharing" class="btn btn-primary">
+          Click Here For More Pictures!
+        </a>
       </div>
-      <!------------------------------------- Main Content ends here ----------------------------------->
+      <!------------------------------------- Main Content ends here ---------------------------------->
       <footer>
         <div class="footer">
           <h3>Connect Socially With Me!</h3>
@@ -110,5 +68,6 @@
           <a href="https://www.instagram.com/duntellyou1998/" class="fa fa-instagram"></a>
         </div>
       </footer>
+      <!-------------------------------------- Scripting ---------------------------------------------->
     </body>
 </html>

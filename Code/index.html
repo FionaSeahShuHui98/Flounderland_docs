@@ -19,7 +19,7 @@
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <!-------------------------------------- Flounderland Logo ----------------------------------->
         <a class="navbar-brand" href="index.html">
-          <img src="images/HomePage/Logo.png" alt="logo" style="width:100px;">
+          <img src="Images/HomePage/Logo.png" alt="logo" style="width:100px;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -32,8 +32,15 @@
             <li class="nav-item">
               <a class="nav-link" href="AboutMe.html"><i class="fa fa-user"></i> About Me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Gallery.html"><i class="fa fa-image"></i> Gallery</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="Gallery.html" id="navbardrop" data-toggle="dropdown">
+                <i class="fa fa-image"></i>Gallery
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Osaka.html">Osaka</a>
+                <a class="dropdown-item" href="Hanoi.html">Hanoi</a>
+                <a class="dropdown-item" href="Ho_Chi_Minh.html">Ho Chi Minh</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="ContactMe.html"><i class="fa fa-envelope"></i> Contact Me</a>
@@ -42,13 +49,16 @@
         </div>  
       </nav>
       <!------------------------------------- Main Content starts here --------------------------------->
-      <div class="container ml-0">
-        <div class="image ml-0">
-          <img class="mySlides" src="Images/HomePage/1.jpg">
-          <img class="mySlides" src="Images/HomePage/2.jpg">
+      <div class="content">
+        <div class="container ml-0">
+          <div class="image">
+            <img class="mySlides" src="Images/HomePage/1.jpg">
+            <img class="mySlides" src="Images/HomePage/2.jpg">
+            <img class="mySlides" src="Images/HomePage/3.jpg">
+          </div>
+          <h2>Welcome to Flounderland!</h2>
+          <p>With Flounder, Everything is Possible</p>
         </div>
-        <h2>Welcome to Flounderland!</h2>
-        <p>With Flounder, Everything is Possible</p>
       </div>
       <!------------------------------------- Scripting ------------------------------------------------->
       <script>
